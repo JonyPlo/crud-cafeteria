@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+/* Background Colors */
+.bg-yellow {
+  background-color: #ecd078 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-orange {
+  background-color: #d95b43 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-red {
+  background-color: #c02942 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-gray {
+  background-color: #53777a !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* Button yellow */
+.btn-yellow {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ecd078;
+  color: #ecd078;
+}
+.btn-yellow:hover {
+  color: #fff;
+}
+.btn-yellow:hover:after {
+  width: 100%;
+}
+.btn-yellow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ecd078;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Button orange */
+.btn-orange {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #d95b43;
+  color: #d95b43;
+}
+.btn-orange:hover {
+  color: #fff;
+}
+.btn-orange:hover:after {
+  width: 100%;
+}
+.btn-orange:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #d95b43;
+}
+
+/* Button red */
+.btn-red {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #c02942;
+  color: #c02942;
+}
+.btn-red:hover {
+  color: #fff;
+}
+.btn-red:hover:after {
+  width: 100%;
+}
+.btn-red:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #c02942;
+}
+
+/* Button gray */
+.btn-gray {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #53777a;
+  color: #53777a;
+}
+.btn-gray:hover {
+  color: #fff;
+}
+.btn-gray:hover:after {
+  width: 100%;
+}
+.btn-gray:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #53777a;
+}
+
+/* Logo */
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 30px !important;
+}
+
+/* Truncate img link */
+.truncate-img-link {
+  overflow: hidden;
+  /* width: 600px; cambiando esto elegimos el ancho del texto */
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1; /*cambiando este numero elegimos la cantidad de filas que queremos que muestre el texto*/
+}
+
+/* No products found */
+.no-products-found{
+  height: 55vh!important;
 }

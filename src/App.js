@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/views/Home/Home";
+import Navigation from "./components/layout/Navigation";
+import Footer from "./components/layout/Footer";
+import ProductsTable from "./components/views/ProductsTable/ProductsTable";
+import ProductCreate from "./components/views/ProductCreate/ProductCreate";
+import ProductEdit from "./components/views/ProductEdit/ProductEdit";
+import Error404 from "./components/views/Error404/Error404";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <main>
+        <Home />
+        {/* <ProductsTable /> */}
+        {/* <ProductCreate/> */}
+        {/* <ProductEdit/> */}
+        {/* <Error404/> */}
+      </main>
+      <Footer />
     </div>
   );
 }
