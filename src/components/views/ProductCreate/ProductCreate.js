@@ -10,11 +10,11 @@ const ProductCreate = () => {
         {/* Form Product */}
         <Form className="my-5">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Nombre del producto*</Form.Label>
+            <Form.Label>Product name*</Form.Label>
             <Form.Control type="text" placeholder="Ej: Café" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Precio*</Form.Label>
+            <Form.Label>Price*</Form.Label>
             <Form.Control type="number" placeholder="Ej: 50" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -25,9 +25,9 @@ const ProductCreate = () => {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
-            <Form.Label>Categoria*</Form.Label>
+            <Form.Label>Category*</Form.Label>
             <Form.Select>
-              <option value="">Seleccione una opcion</option>
+              <option value="">Select an option</option>
               <option value="bebida-caliente">Bebida Caliente</option>
               <option value="bebida-fria">Bebida Fria</option>
               <option value="sandwitch">Sandwich</option>
