@@ -13,9 +13,9 @@ function App() {
     <div>
       <Navigation />
       <main>
-        {/* <Home /> */}
+        <Home />
         {/* <ProductsTable /> */}
-        <ProductCreate/>
+        {/* <ProductCreate/> */}
         {/* <ProductEdit/> */}
         {/* <Error404/> */}
       </main>
