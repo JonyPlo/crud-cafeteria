@@ -13,7 +13,7 @@ const CardProduct = () => {
         <Card.Body>
           <div className="d-flex align-items-center justify-content-between mb-2">
             <Card.Title className="m-0">Card Title</Card.Title>
-            <span class="badge bg-yellow">New</span>
+            <span className="badge bg-yellow">New</span>
           </div>
           <Card.Text>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum id,
