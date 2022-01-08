@@ -11,6 +11,7 @@ const Product = () => {
           https://media.istockphoto.com/photos/fresh-croissants-on-wooden-board-and-orange-jam-in-bowl-picture-id1199388833?k=20&m=1199388833&s=612x612&w=0&h=RzQ3L1uDy9Id4Xx5-GxMeGvm5V00J02F_nnksyZ0f-s=
         </p>
       </td>
+      <td>Bebida Fria</td>
       <td className="w-25">
         <div className="d-flex justify-content-center">
           <button className="btn-orange mx-1">Update</button>

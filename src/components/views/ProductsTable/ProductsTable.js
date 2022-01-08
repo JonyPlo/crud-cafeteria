@@ -19,6 +19,7 @@ const ProductTable = () => {
               <th>Name</th>
               <th>Price</th>
               <th>Image url</th>
+              <th>Category</th>
               <th>Actions</th>
             </tr>
           </thead>
