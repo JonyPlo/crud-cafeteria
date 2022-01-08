@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Table } from "react-bootstrap";
 import Product from "./Product/Product";
 
-const ProductList = () => {
+const ProductTable = () => {
   return (
     <div>
       <Container className="py-5">
@@ -39,4 +39,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductTable;
