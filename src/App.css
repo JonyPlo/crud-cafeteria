@@ -184,3 +184,58 @@
 .no-products-found {
   height: 55vh !important;
 }
+
+/* SWEETALERT2 CUSTOM COLOR */
+
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #ecd078 !important;
+  color: #fff;
+  font-size: 1.0625em;
+}
+
+.swal2-icon.swal2-success {
+  border-color: #ecd078 !important;
+  color: #ecd078 !important;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+  position: absolute;
+  z-index: 2;
+  top: -0.25em;
+  left: -0.25em;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  border: 0.25em solid rgba(236, 209, 120, 0.308) !important;
+  border-radius: 50%;
+}
+
+.swal2-icon.swal2-success [class^="swal2-success-line"] {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  height: 0.3125em;
+  border-radius: 0.125em;
+  background-color: #ecd078 !important;
+}
+
+.swal2-icon.swal2-warning {
+  border-color: #ecd078 !important;
+  color: #ecd078 !important;
+}
+
+.swal2-styled.swal2-cancel {
+  background-color: #c02942!important;
+  transition: all 300ms ease;
+}
+
+.swal2-styled.swal2-default-outline:focus {
+    box-shadow: 0 0 0 3px rgb(236, 209, 120)!important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 3px rgb(236, 209, 120)!important;
+}
