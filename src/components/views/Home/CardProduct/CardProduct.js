@@ -12,7 +12,7 @@ const CardProduct = () => {
         />
         <Card.Body>
           <div className="d-flex align-items-center justify-content-between mb-2">
-            <Card.Title className="m-0">Card Title</Card.Title>
+            <Card.Title className="m-0 text-truncate">Card Title</Card.Title>
             <span className="badge bg-yellow">New</span>
           </div>
           <Card.Text>

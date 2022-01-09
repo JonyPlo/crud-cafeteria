@@ -242,5 +242,6 @@
 
 /* Cards-img */
 .img-fluid {
-  height: 50vh !important;
+  height: 45vh !important;
+  object-fit: cover;
 }
