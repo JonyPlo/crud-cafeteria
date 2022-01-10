@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Cafe",
+      "price": "50",
+      "urlImg": "http://cualquiercosa.com",
+      "category": "bebida-caliente"
+    },
+    {
+      "id": 2,
+      "productName": "Licuado",
+      "price": "25",
+      "urlImg": "http://cualquiercosa.com",
+      "category": "bebida-fria"
+    },
+    {
+      "id": 3,
+      "productName": "Tortilla",
+      "price": "30",
+      "urlImg": "http://cualquiercosa.com",
+      "category": "salado"
+    }
+  ]
+}
