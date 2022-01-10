@@ -1,7 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
-const Product = ({ product }) => {
+const Product = ({ product, URL, getApi }) => {
+  const handleDelete = (id) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Delete",
+    }).then(async (result) => {
+      if (result.isConfirmed) {
+        try {
+          const res = await fetch(`${URL}/${id}`, {
+            method: "DELETE",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          if (res.status === 200) {
+            Swal.fire("Deleted!", "Your file has been deleted.", "success");
+            getApi();
+          }
+        } catch (error) {
+          console.log(error);
+        }
+      }
+    });
+  };
+
   return (
     <tr>
       <td>{product.id}</td>
@@ -19,7 +47,12 @@ const Product = ({ product }) => {
           >
             Update
           </Link>
-          <button className="btn-red mx-1">Delete</button>
+          <button
+            className="btn-red mx-1"
+            onClick={() => handleDelete(product.id)}
+          >
+            Delete
+          </button>
         </div>
       </td>
     </tr>

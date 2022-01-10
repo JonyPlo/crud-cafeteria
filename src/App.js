@@ -36,11 +36,13 @@ function App() {
         <Navigation />
         <main>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Home products={products} />} />
             <Route
               exact
               path="/product/table"
-              element={<ProductsTable products={products} />}
+              element={
+                <ProductsTable products={products} URL={URL} getApi={getApi} />
+              }
             />
             <Route
               exact
