@@ -29,7 +29,7 @@ const ProductCreate = ({ URL, getApi }) => {
       !validateUrl(urlImg) ||
       !validateCategory(category)
     ) {
-      Swal.fire("Ops!", "Some data are invalid.", "error");
+      Swal.fire("Ops!", "Some data is invalid.", "error");
       return;
     }
 

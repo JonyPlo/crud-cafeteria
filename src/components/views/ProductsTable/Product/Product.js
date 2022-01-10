@@ -14,7 +14,7 @@ const Product = ({ product }) => {
       <td className="w-25">
         <div className="d-flex justify-content-center">
           <Link
-            to="/product/edit"
+            to={`/product/edit/${product.id}`}
             className="btn-orange mx-1 text-decoration-none text-center"
           >
             Update
