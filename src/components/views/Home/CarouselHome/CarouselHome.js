@@ -11,7 +11,6 @@ const CarouselHome = () => {
             src="https://www.jasonshonbennett.com/wp-content/uploads/2019/05/Untitled-design-2-4.jpg"
             alt="cafe"
           />
-
           <Carousel.Caption>
             <h3>The best café!</h3>
             <p>Enjoy an unforgettable taste.</p>
@@ -28,14 +27,12 @@ const CarouselHome = () => {
             <p>Enjoy an unforgettable taste.</p>
           </Carousel.Caption>
         </Carousel.Item>
-
         <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://www.vendingmadridvalyval.com/wp-content/uploads/2019/05/maquina-expendedora-bebidas-madrid-slndn1.jpg"
             alt="mixed roasts"
           />
-
           <Carousel.Caption>
             <h3>The best mixed roasts and more!</h3>
             <p>Enjoy an unforgettable taste.</p>
