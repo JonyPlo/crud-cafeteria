@@ -13,6 +13,34 @@
       "price": "40",
       "urlImg": "http://cualquiercosa.com",
       "category": "bebida-fria"
+    },
+    {
+      "productName": "cafe",
+      "price": "35",
+      "urlImg": "https://images.pexels.com/photos/1775037/pexels-photo-1775037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "category": "bebida-caliente",
+      "id": 3
+    },
+    {
+      "productName": "medialuna",
+      "price": "15",
+      "urlImg": "https://images.pexels.com/photos/1775037/pexels-photo-1775037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "category": "dulce",
+      "id": 4
+    },
+    {
+      "productName": "asdasd",
+      "price": "234",
+      "urlImg": "https://images.pexels.com/photos/4753640/pexels-photo-4753640.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "category": "bebida-fria",
+      "id": 5
+    },
+    {
+      "productName": "skdjfhkjsdf",
+      "price": "67",
+      "urlImg": "https://images.pexels.com/photos/1775037/pexels-photo-1775037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "category": "sandwitch",
+      "id": 6
     }
   ]
 }
