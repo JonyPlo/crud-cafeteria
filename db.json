@@ -10,16 +10,9 @@
     {
       "id": 2,
       "productName": "Licuado",
-      "price": "25",
+      "price": "40",
       "urlImg": "http://cualquiercosa.com",
       "category": "bebida-fria"
-    },
-    {
-      "id": 3,
-      "productName": "Tortilla",
-      "price": "30",
-      "urlImg": "http://cualquiercosa.com",
-      "category": "salado"
     }
   ]
 }
