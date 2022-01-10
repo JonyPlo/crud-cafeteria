@@ -6,6 +6,34 @@
       "urlImg": "https://images.pexels.com/photos/4869288/pexels-photo-4869288.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "category": "bebida-caliente",
       "id": 1
+    },
+    {
+      "productName": "Licuado",
+      "price": "80",
+      "urlImg": "https://t1.uc.ltmcdn.com/images/4/2/9/img_como_hacer_licuado_de_banana_35924_600_square.jpg",
+      "category": "bebida-fria",
+      "id": 2
+    },
+    {
+      "productName": "Bollitos",
+      "price": "30",
+      "urlImg": "https://i.pinimg.com/originals/49/a3/9b/49a39b92df5fa1e9193282b40ec820c3.jpg",
+      "category": "salado",
+      "id": 3
+    },
+    {
+      "productName": "Tostado Mixto",
+      "price": "50",
+      "urlImg": "https://t2.uc.ltmcdn.com/images/0/6/9/img_como_hacer_un_sandwich_mixto_33960_600_square.jpg",
+      "category": "sandwitch",
+      "id": 4
+    },
+    {
+      "productName": "Croissant",
+      "price": "20",
+      "urlImg": "https://hornomx.com/wp-content/uploads/2019/04/croissants-recipe-hornomx-FG-500x500.jpg",
+      "category": "dulce",
+      "id": 5
     }
   ]
 }
