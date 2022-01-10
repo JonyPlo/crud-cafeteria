@@ -1,14 +1,20 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Product from "./Product/Product";
 
-const ProductList = () => {
+const ProductTable = ({ products }) => {
   return (
     <div>
       <Container className="py-5">
         <div className="d-flex align-items-center justify-content-between">
           <h1>Products Table</h1>
-          <button className="btn-yellow">Add Product</button>
+          <Link
+            to="/product/create"
+            className="btn-yellow text-decoration-none text-center"
+          >
+            Add Product
+          </Link>
         </div>
         <hr />
         {/* Table of products */}
@@ -19,15 +25,14 @@ const ProductList = () => {
               <th>Name</th>
               <th>Price</th>
               <th>Image url</th>
+              <th>Category</th>
               <th>Actions</th>
             </tr>
           </thead>
           <tbody>
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+            {products.map((product) => (
+              <Product product={product} />
+            ))}
           </tbody>
         </Table>
         {/* No products found message */}
@@ -39,4 +44,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductTable;
